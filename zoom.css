@@ -1,0 +1,38 @@
+.point {
+    cursor: pointer;
+}
+body{
+    margin: 0px;
+}
+#source_singer{
+    background-color: white;
+}
+#target_singer{
+    background-color: pink;
+}
+
+#data_display{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 100%;
+}
+#data_display #dataviz_axisZoom{
+    height: 400px;
+    width: 460px;
+    float: left;
+    margin-top: 50px;
+}
+
+#display{
+    background-color: aquamarine;
+    width: 100%;
+    height: 300px;
+}
+#display #d1,#d2,#d3{
+    height: 300px;
+    width: 400px;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 50px;
+}
+
